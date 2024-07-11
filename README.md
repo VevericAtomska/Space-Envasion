@@ -1,3 +1,4 @@
+
 Usage: ./space_envasion.rb [options]
     -t, --target TARGET              Target URL
     -m, --method METHOD              HTTP method (GET or POST)
@@ -10,7 +11,6 @@ Usage: ./space_envasion.rb [options]
     -s, --stop-on-success            Stop after first successful login
     -h, --help                       Show this help message and exit
 
-===============================================================================================
 **1. Basic usage:**
 ---------------------------------------------------------------------------------------------
 ./space_envasion.rb -t http://example.com -m GET -u admin -p password -e "Invalid credentials"
